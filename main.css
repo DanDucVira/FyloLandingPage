@@ -1,5 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+
+/*Global Styles*/
+
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: hsl(243, 87%, 12%);
+	font-weight: 400;
+
+}
+
+a {
+	text-decoration: none;
+	color: hsl(243, 87%, 12%);
+
+}
+
+ul {
+	list-style: none;
+}
+
+.container {
+	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+/*header and navigation styles*/
+.main-header {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	padding: 120px;
 }
